@@ -1,0 +1,181 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+address,caption,cite,code,dfn,em,strong,th,var,i{font-weight:normal;font-style:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+q:before,q:after{content:'';}
+fieldset,img,abbr,acronym{border:0;}
+
+/*footer*/
+#afooter{text-align:center; line-height:20px;color: #6e6e6e;background-color: #000;padding: 20px 0;}
+#afooter a{ color: #6e6e6e;}
+/*页面样式*/
+.c:before,.c:after {content:"";display:table;}
+.c:after {clear:both;}
+.c {zoom:1;}
+body {font:12px/1.5 '\5FAE\8F6F\96C5\9ED1';padding-top:42px;text-align:justify;overflow-x: hidden;background-color: #011330;}
+a {text-decoration:none;overflow:hidden;}
+a:hover {text-decoration:none;}
+:focus{outline: none;}
+body,#actTitleWrap,.blacktop-wrap,.wrap,#footer_ied {min-width:1200px !important;width:100% !important;_width: expression((document.documentElement.clientWidth||document.body.clientWidth)<1202?'1200px':'') !important;}
+.container {width:1200px;margin:0 auto;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.hide {display:block;width:0;height:0;overflow:hidden;}
+.db{display:block;text-indent:-999em;}
+.fl{float: left;}
+.fr{float: right;}
+.sp{background: url(../ossweb-img/sp.png) no-repeat;}
+.header{height:988px;background: url(../ossweb-img/hd.jpg) no-repeat 50% 0;}
+.head{height: 988px;position: relative;}
+.par_logo{width: 359px;height: 145px;background: url(../ossweb-img/logo_hd.png) no-repeat 50% 0;position: absolute;left: -80px;top: -30px;}
+.time{width: 416px;height: 47px;background-position: -6px -194px;color: #83daff;font-size: 26px;text-align: center;line-height:46px;font-weight: bold;top: 864px;left:50%;margin-left:-208px;position: absolute;}
+.logo1{display: block;width: 172px;height: 100px;text-indent:-999em;position: absolute;top: 40px;left: 0;}
+.top-right{position: absolute;top: 0;right: 0;background: url(../ossweb-img/top_right.png) no-repeat;width: 303px;height: 35px;}
+.top-right a{float: left;line-height: 33px;height: 35px;width: 151px;color: #fff;text-align: center;}
+.top-right a:hover{color: #6ac4a6;}
+.btn-enter span{padding-left: 30px;}
+.par_nav{width: 100%;height: 85px;}
+.nav_list{width: 1200px;margin: 0 auto;}
+.nav_list li{float: left;width:196px;height:76px;background-position:-7px -9px;margin-right:4px;}
+.nav_list .last{margin-right:0 !important;}
+.nav_list li a{display: block;width: 100%;height: 100%;color: #fff;font-size: 28px;text-align: center;line-height:76px;}
+.nav_list li:hover{background-position: -7px -104px;}
+.content{padding-bottom: 50px;background: url(../ossweb-img/bg.jpg) no-repeat 50% 0;}
+.week_left{width:1062px;margin:46px auto;}
+.week_left a{float: left;color: #fff;font-size:28px;text-align: center;line-height: 68px;width: 355px;height: 68px;}
+.sj1{background-position:-241px -6px;}
+.sj2{background-position:-717px -167px;margin: 0 -2px;}
+.sj3{background-position:-474px -865px;}
+.sj1:hover{background-position:-246px -92px;}
+.sj2:hover{background-position:-705px -502px;}
+.sj3:hover{background-position:-19px -867px;}
+.week_list .cur a,.week_list li a:hover{color: #db143c;}
+.week_right{float: right;}
+.par_sc{position: relative;}
+.par_sc .swiper-container{width:1184px;margin: 0 auto;}
+.sc_main{width: 267px;height:162px;background: url(../ossweb-img/sj_bg1.png) no-repeat 50% 0;margin: 0 auto;}
+.sc_time{padding: 8px;color: #fff;font-size: 14px;text-align: center;}
+.sc_team{margin-top: 10px;}
+.team_tb{width: 88px;}
+.team_tb img{display: block;margin: 0 auto;}
+.team_tb em{display: block;width: 80px;color:#535353;font-size:18px;text-align: center;padding:9px 4px 0;line-height: 16px;}
+.team_bf{float: left;width:90px;color: #3b3b3b;margin-top: 5px;}
+.team_bf span{float: left;width:31px;height:44px;color:#f39700;font-size: 38px;font-weight: bold;text-align: center;line-height:44px;background: url(../ossweb-img/num_bg.png) no-repeat 50% 0;}
+.team_bf em{float: left;width: 40px;height:44px;color:#fff;font-size: 38px;font-weight: bold;text-align: center;line-height:44px;background: url(../ossweb-img/num_bg.png) no-repeat 50% 0;}
+.team_bf i{float: left;width: 18px;font-size: 36px;font-weight: bold;text-align: center;line-height: 46px;}
+.par_sc .swiper-button-next{width: 47px;height:47px;background-position: -517px -193px;position: absolute;top: 50%;margin-top: -37px;right:-30px;}
+.par_sc .swiper-button-prev{width:47px;height:47px;background-position:-451px -192px;position: absolute;top: 50%;margin-top: -37px;left:-46px;}
+.par_sc .swiper-container .swiper-slide-active .sc_main{width:296px;height: 197px;background: url(../ossweb-img/sj_bg2.png) no-repeat 50% 0;}
+.par_sc .swiper-container .swiper-slide-active .sc_time{color: #fff;}
+.tit3{width: 540px;height: 45px;background-position:-1px -431px;}
+.tit4{width: 621px;height: 45px;background-position: -576px -428px;}
+.tit5{width: 621px;height: 45px;background-position:  -2px -505px;}
+.par_live {margin-top:40px;}
+.par_live .par_tit{border:none;}
+.tit1{width: 1188px;height: 45px;background-position:-2px -267px;margin: 0 auto;}
+.tit em{display: inline-block;width: 2px;height: 20px;background-color: #1d1d1d;vertical-align: middle;margin-right: 5px;}
+.icon1{display: inline-block;width: 14px;height: 11px;background-position: -301px -81px;vertical-align: middle;margin: 0 10px;}
+.tit_text{display: inline-block;color: #666666;font-size: 20px;font-weight: bold;vertical-align: middle;}
+.live_main{width: 1200px;height: 676px;margin:48px auto 85px;background: url(../ossweb-img/live_img.jpg) no-repeat 50% 0;}
+.par_active{margin-top: 40px;}
+.par_login{display: inline-block;color: #242831;font-size: 16px;padding: 0 10px;vertical-align: middle;}
+.par_login a{color: #db143c;}
+.lottery_num{display: inline-block;color: #242831;font-size: 16px;padding:0 10px;vertical-align: middle;}
+.lottery_num em{color: #db143c;}
+.par_lottery{float: left;width:744px;padding-top: 64px;}
+.num{color: #fff;font-size: 18px;text-align: center;font-weight: bold;line-height: 26px;top: 305px;left:252px;width:240px;}
+.num em{font-weight: bold;}
+.active_text{color: #242831;font-size: 14px;padding: 20px 0;}
+.lottery_main{width:744px;height:570px;margin: 0 auto;background: url(../ossweb-img/lottery_img.png) no-repeat 50% 0;position: relative;}
+.par_task{float: right;width: 430px;}
+.task_list li{width: 100%;margin-top: 10px;}
+.task_tit{color: #ffff;font-size:24px;padding: 10px 0;}
+.task_img{float: left;width:276px;height: 130px;position: relative;}
+.task_img img{display: block;}
+.task_img em{display: block;width: 100%;color: #fffcf8;font-size: 18px;text-align: center;position: absolute;bottom: 6px;left: 0;}
+.btn_lq{float: right;width:154px;height: 132px;text-indent:-999em;background-position:-623px -3px;}
+.btn_ylq{background-position:-807px 0;}
+.tip{color: #ffffff;font-size: 22px;text-align: center;line-height: 40px;margin-top: 35px;}
+.btn_more{color: #fff;font-size: 16px;text-decoration: underline;}
+.par_sign{margin-top: 25px;}
+.text_sm{color: #242831;font-size: 14px;padding: 10px 0;}
+.sign_left{float: left;width: 530px;}
+.sign_img{width: 528px;}
+.sign_img img{display: block;}
+.sign_right{float: right;width: 645px;}
+.step_list{margin-top: 20px;}
+.step_list li{float: left;width: 215px;position: relative;}
+.code_img{display: block;border: 1px solid #292c33;margin-top: -2px;}
+.step_list li img{display: block;margin: 0 auto;}
+.step_text{color: #393939;font-size: 16px;text-align: center;margin-top: 5px;}
+.arrow{width: 22px;height: 35px;background-position: -379px 0;position: absolute;top: 40px;right: -10px;}
+.arrow1{right: 0px;}
+.tit2{width: 1188px;height: 45px;background-position: -2px -348px;margin: 0 auto;}
+.par_news{margin-top:110px;}
+.news_left{float: left;width: 500px;}
+
+.news_list li{float: left;width: 100%;height: 48px;color:#ababab;font-size: 16px;line-height: 48px;}
+.news_list li a{float: left;width: 405px;color: #ffffff;font-size: 18px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.news_list li a:hover{color: #db143c;}
+.news_list li span{float: right;}
+.video_right{float: right;width: 620px;}
+.video_list{margin-top: 36px;}
+.video_list li{float: left;width: 198px;margin-right: 11px;margin-bottom: 20px;position: relative;}
+.video_list .last{margin-right: 0;}
+.video_list li img{display: block;}
+.video_list li em{display: block;width: 100%;color: #fff;font-size: 14px;text-align:left;padding: 5px 0;overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.video_hover{display: none;width: 198px;height: 120px;background-color: rgba(0,0,0,0.6);position: absolute;top: 0;left: 0;}
+.video_hover i{display: block;width: 14px;height: 28px;background-position: -301px -102px;position: absolute;top: 50%;margin-top: -14px;left: 50%;margin-left: -7px;}
+.video_list li a:hover em{color: #db143c;}
+.video_list li a:hover .video_hover{display: block;}
+
+.par_team{margin-top: 40px;}
+.team_main{margin-top: 30px;}
+.team_nav{float: left;width: 378px;}
+.team_nav a{float: left;width: 135px;height: 135px;background: url(../ossweb-img/team_bg.png) no-repeat 50% 0;margin-right: 54px;margin-bottom: 30px;}
+.team_nav a img{display: block;}
+.team_nav .cur{background: url(../ossweb-img/team_on.png) no-repeat 50% 0;}
+.team_player{float: right;width: 822px;}
+.team_video{width: 822px;height: 432px;}
+.player_list{margin-top: 30px;}
+.player_list li{float: left;width: 156px;height: 172px;border: 1px solid #ececed;margin-right: 8px;position: relative;}
+.player_list .last{margin-right: 0;}
+.player_list li img{display: block;}
+.player_name{width: 146px;height: 25px;font-size: 12px;line-height: 25px;padding: 0 5px;background-color: #4c4c4c;}
+.player_name em{float: left;color: #ffffff;}
+.player_name span{float: right;color: #a9a9a9;}
+.player_leader{width: 30px;height: 16px;color:#fff;font-size: 12px;text-align: center;line-height: 16px;background-color: #db143c;position: absolute;top: -1px;left: 0;}
+.player_bg{width: 158px;height: 179px;background: url(../ossweb-img/leader_bg.png) no-repeat 50% 0;position: absolute;bottom: 0;left: 0;}
+.tit6{width: 1192px;height: 45px;background-position:0 -582px;margin: 0 auto;}
+.par_js{margin-top:100px;}
+.js_list{margin-top: 32px;}
+.js_list li{float: left;width: 225px;height:278px;margin:0 8px;position: relative;}
+.js_list .last{margin-right: 0;}
+.js_list li img{display: block;}
+.js_list .fir{margin-left:370px;}
+.js_list li em{display: block;width: 100%;height: 52px;color: #ffffff;font-size: 20px;text-align: center;line-height: 52px;margin-top: -70px;}
+.tit7{width: 1193px;height: 45px;background-position: -2px -655px;margin: 0 auto;}
+.par_bonus{margin-top: 67px;}
+.par_bonus .tip{font-size: 18px;}
+.bonus_img{height:273px;margin: 25px auto 0;}
+.bonus_img img{display: block;margin: 0 auto;}
+.tit8{width: 1193px;height: 45px;background-position: -2px -725px;margin: 0 auto;}
+.par_mess{margin-top: 80px;}
+.mess_main{margin-top: 20px;}
+.game_logo{display: inline-block;width: 251px;height: 173px;margin-right: 31px;vertical-align: middle;}
+.game_logo img{display: block;}
+.mess_text{display: inline-block;width: 890px;color: #fff;font-size: 16px;line-height: 30px;padding: 0 10px;vertical-align: middle;}
+.mess_text strong{color: #fff;font-weight: bold;font-size: 20px;}
+.tit9{width: 1193px;height: 45px;background-position: -4px -801px;margin:0 auto;}
+.par_partner{margin-top: 60px;}
+.partner_list{width: 1200px;height: 244px;background: url(../ossweb-img/partner_img.png) no-repeat 50% 0;margin-top: 30px;position: relative;}
+.logo_qq{float: left;width: 192px;height: 75px;text-indent:-999em;margin-top: 8px;margin-left: 35px;}
+.logo_wb{float: left;width: 168px;height: 64px;text-indent:-999em;margin-top: 19px;margin-left: 81px;}
+.logo_browser{float: left;width: 196px;height: 64px;text-indent:-999em;margin-top: 19px;margin-left: 68px;}
+.logo_wegame{float: left;width: 326px;height: 55px;text-indent:-999em;margin-top: 19px;margin-left: 77px;}
+.logo_senn{float: left;width:222px;height: 55px;text-indent:-999em;top: 119px;left:35px;position: absolute;}
+.logo_huya{float: left;width: 165px;height: 55px;text-indent:-999em;top: 119px;left:305px;position: absolute;}
+.logo_douyu{float: left;width:130px;height: 55px;text-indent:-999em;top: 119px;left: 577px;position: absolute;}
